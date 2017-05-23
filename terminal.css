@@ -16,6 +16,7 @@ p {
 	border-style: solid;
 	border-color:#00FF00;
 	overflow-x: scroll;
+	word-wrap:break-word;
 }
 
 #main::-webkit-scrollbar {
@@ -42,20 +43,13 @@ p {
 	margin:25px;
 }
 
-/*
-#submit {
-	display:none;
-}
-*/
 input[type="text"] {
 	border-style:none;
 	background-color:#000000;
 	font-family: "Courier New", Courier, monospace;
     color:#00FF00;
-	max-width:50%;
-	/*
-	opacity:0;
-	*/
+	max-width:95%;
+
 }
 
 input:focus,

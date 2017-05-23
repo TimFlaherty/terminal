@@ -27,13 +27,20 @@
 	}
 	// Javascript grab input
 	function process() {
-		chat += document.getElementById("usrinpt").value + "<br>";
+		inpt = document.getElementById("usrinpt").value;
+		chat += inpt + "<br>";
 		document.getElementById("disp").innerHTML = chat;
 		document.getElementById("usrinpt").value = '';
 		var dispwindow = document.getElementById("main");
 		dispwindow.scrollTop = dispwindow.scrollHeight;
 		counter = 1;
 		document.getElementById("usrinpt").size = counter;
+		// Link on keyword; to be replaced with PHP/MySQL for scalability
+		if (inpt == "tmf") {
+			window.open("http://www.tmfmusic.com");
+		} else if (inpt == "github") {
+			window.open("http://github.com/timflaherty");
+		}
 	}
 	
 	</script>
