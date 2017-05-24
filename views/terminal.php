@@ -1,9 +1,9 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="lib/terminal.css">
+	<link rel="stylesheet" type="text/css" href="../lib/terminal.css">
 	<title>Terminal</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="controllers/terminal.js"></script>
+	<script type="text/javascript" src="../controllers/terminal.js"></script>
 	<?php
 		include('../models/dbconnect.php');
 	?>
