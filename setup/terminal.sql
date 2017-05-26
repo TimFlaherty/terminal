@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS terminal;
 
-USE links;
+USE terminal;
 
 CREATE TABLE links (
    	keyword VARCHAR(25) PRIMARY KEY,
